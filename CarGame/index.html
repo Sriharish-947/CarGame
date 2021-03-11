@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("Racing\ car\ and\ stuff.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h4
+{
+	color: white !important;
+}
+h1
+{
+ color: red !important;
+}
+#h2
+{
+	color: yellow !important
+}
+#h3
+{
+	color:rgb(19, 231, 19) !important;
+}
+
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car Racing Game</title>
+</head>
+<body onload = "add()">
+<center>
+<h1 id="h1"> READY! </h1> <h1 id="h2"> SET! </h1> <h1 id="h3"> GO! </h1>
+
+<canvas id="myCanvas" width="800" height="600">  </canvas>
+
+<h4>
+	<b class="text-danger">NOTE : </b>  IF EITHER CAR IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+
+<h1 id="h1GameStaus">Game Status : <span id="Result"></span></h1>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
